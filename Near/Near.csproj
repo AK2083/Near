@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>Workflow Assigner</Title>
+    <Authors>Adrian Helmchen</Authors>
+    <RepositoryUrl>https://github.com/AK2083/Near</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>A class library to determine the workflow which use to calculate insurance or wage tax.</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="F:\Near\Near\.editorconfig" />
   </ItemGroup>
 
