@@ -24,4 +24,9 @@
     <None Include="F:\Near\Near\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Misa" Version="0.1.1" />
+    <PackageReference Include="Ryuk" Version="0.1.3" />
+  </ItemGroup>
+
 </Project>
